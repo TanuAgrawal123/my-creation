@@ -1,0 +1,128 @@
+#outer{
+margin:auto;
+width:1333;}
+#header{
+	background-color:green;
+	height:200;
+border:2px solid black;}
+#logo{
+	height:198;
+border:1px solid silver;
+background-color:yellow;
+width:198;
+float:left;}
+#biet{
+	height:198;
+	border:1px solid silver;
+	width:927;
+	background-color:blue;
+	
+float:left;
+line-height:10px;}
+#helpline{
+float:right;
+	animation-name:design;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+	height:138;
+width:198;
+padding-top:60;}
+@keyframes design{
+0%{border-radius:50%;
+background-color:lightgreen;}
+100%{border-radius:50%;
+background-color:lightgreen;
+transform:rotate(360deg);
+text-shadow:6px;}}
+#helpline h3{
+text-align:center;}
+#banner{
+	height:50;
+border:2px solid black;
+}
+ul
+{
+	list-style:none;
+	padding:0;
+	margin:0;
+	border-color:red;
+}
+ul li
+{
+	float:left;
+	margin-top:15px;
+	text-align:center;
+width:330px;
+padding:1px;
+position:relative;
+}
+#banner ul li a
+{
+	width:250px;
+	color:blue;
+	text-decoration:none;
+	padding:2px;
+}
+#banner ul li a:hover
+{
+color:black;
+}
+ul li ul{
+display:none;
+	position:absolute;
+	z-index:11;
+}
+ul li ul li{
+	float:none;
+}
+ul li:hover ul{
+	display:block;
+}
+#slidder{
+	height:400;
+border:2px solid black;}
+#slideimage{
+	height:400;
+}#inner{
+	height:500;
+border:2px solid black;}
+#news{
+	height:498;
+border:1px solid silver;
+overflow:auto;
+width:400;
+float:left;}
+#student{
+	height:498;
+	border:1px solid silver;
+width:523;
+float:left;
+background-color:grey;}
+#quote{
+	height:348;
+	width:400;
+	text-align:center;
+	padding-top:150;
+border:1px solid silver;
+float:right;
+background-color:lightpink;
+}
+#slide{
+	height:30;
+border:2px solid black;
+background-color:wheat;
+}
+#footer{
+	height:150;
+border:2px solid black;
+background-color:black;
+}
+#footer p{
+text-align:center;
+}
+#footer p a:link{
+	color:white;
+}
+	
+	

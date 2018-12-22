@@ -1,0 +1,156 @@
+<html>
+<head>
+<link rel="stylesheet"
+type="text/css"
+href="style.css">
+</head>
+<body onload="slides">
+<script>
+var images=["hackathon/img1.jpg","hackathon/img2.jpg","hackathon/img3.jpg","hackathon/img4.jpg","hackathon/img5.jpg","hackathon/img6.jpg"];
+var i=0;
+function slides()
+{document.getElementById("slideimage").src=images[i];
+if(i<(images.length-1))
+i++;
+else
+i=0;
+}
+setInterval(slides,2000)
+</script>
+<div id="outer">
+<div id="header">
+<div id="logo"><img src="hackathon/img.jpg"width="198";height="198";></div>
+<div id="biet"><font color="white">
+<h2>BUNDELKHAND INSTITUTE OF ENGINEERING AND TECHNOLOGY,JHANSI</h2>
+<H3>An autonomous institute funded by up government</h3>
+<h4>Approved by AICTE</h4></font></div>
+<div id="helpline">
+<H3><font color="blue">HELPLINE NO<BR>
+84769356386</font></H3></div>
+</div>
+<div id="banner">
+<ul>
+<li><a href="#">HOME</a></li>
+<li><a href="hackathon/governance.htm">GOVERNANCE</a></li>
+<li><a href="#">EVENTS</a>
+<ul>
+<li><a href="hackathon/paper.htm">PAPER IN VOGUE</a></li>
+<li><a href="hackathon/face.htm">FACE PAINTING</a></li>
+<li><a href="hackathon/rang.htm">RANGOLI</a></li>
+</ul></li>
+<li><a href="hackathon/department.htm">DEPARTMENTS</a>
+<ul>
+<li><a href="#">CHEMICAL</a></li>
+<li><a href="#">CIVIL</a></li>
+<li><a href="#">COMPUTER SCIENCE</a></li>
+<li><a href="#">ELECTRICAL</a></li>
+<li><a href="#">INFORMATION TECHNOLOGY</a></li>
+<li><a href="#">MECHANICAL</a></li>
+<li><a href="#">ELECTRONICS</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+<div id="slidder">
+<img src="hackathon/img1.jpg" id="slideimage">
+</div>
+<div id="inner">
+<div id="news">
+<H3>
+NOTICE AND ANNOUNCEMENT
+</H3>
+<H4>
+<a href="#">final schedule M.tech odd semester 2017-18</a>
+</h4>
+<hr>
+<H4>
+<a href="#">Regarding exam form M.Tech odd semester 2017-18</a>
+</h4>
+<hr>
+<h4>
+<a href="#">Final examination schedule odd semester 2017-18</a>
+</h4>
+<hr>
+<h4>
+<a href="#">Fee structure 2017-18</a>
+</h4>
+<hr>
+<h4>
+<a href="#">Library notice</a>
+</h4>
+<hr>
+<h4>
+<a href="#">Result even semester 2017-18</a>
+</h4>
+<hr>
+<h4>
+<a href="#">List of holidays 2017-18</a>
+</h4>
+<hr>
+<h4>
+<a href="#">Syllabus First Year 2017-18</a>
+</h4>
+<hr>
+<h4>
+<a href="#">Syllabus Second Year 2017-18</a>
+</h4>
+<hr>
+<h4>
+<a href="#">Syllabus Third Year 2017-18</a>
+</h4>
+<hr>
+<h4>
+<a href="#">Syllabus Final Year 2017-18</a>
+</h4>
+
+</div>
+<div id="student">
+<fieldset>
+<legend>REGISTRATION FORM</legend>
+NAME<input type="text" NAME="NAME" required><br/><br/>
+FATHER'S NAME<input type="text" NAME="FNAME" required><br/><br/>
+ROLL NO<input type="text" NAME="ROLL NO" required/><br/></br>
+SELECT BRANCH:
+<SELECT NAME="BRANCH">
+<option>--select--</option>
+<option>CSE</option>
+<option>IT</option>
+<option>ME</option>
+<option>CIVIL</option>
+<option>EE</option>
+<option>EC</option>
+<option>CHEM</option><br><br/>
+</select><BR><BR/>
+DATE OF BIRTH<input type="date"/ NAME="date" required/><br/></br>
+MOBILE NO<input type="text" NAME="MOBILE" required/><br/></br>
+SELECT GENDER<input type="radio" NAME="gender"/>
+ male<input type="radio" name="gender" value="male"/>female<br/><br/>
+EMAIL<input type="email" NAME="email" required/><br/></br>
+CREATE PASSWORD<input type="password" NAME="password" required><br/></br>
+CONFIRM PASSWORD<input type="password" NAME="cpassword" required/><br/></br>
+upload photo:
+<input type="file" name="photo"/><br><br/>
+<input type="submit" value="register"/>
+<input type="reset" value="clear"/>
+</fieldset>
+</div>
+<div id="quote">
+<h1>"The Greatest Enemy of Knowledge is not Ignorance it is the Illusion of Knowledge"</h1></div>
+</div>
+<div id="slide">
+<i><b><marquee behaviour="scroll"direction="RIGHT" font-size="+3" onmouseover="stop()" onmouseout="start()" scrollamount="20">
+FOR MORE QUERIES CONTACT US</marquee></b></i></div>
+<div id="footer">
+<p>
+<a href="#">REC</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#">BANDA</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#">PHOTO GALLERY</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#">SITEMAP</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#">E-TENDER</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#">ANTI RAGGING</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+<p style="color:white;">@2016 BIET,JHANSI,UP,INDIA POWERED BY OMNI NET</font></P></div>
+</div>
+</body>
+</html>
